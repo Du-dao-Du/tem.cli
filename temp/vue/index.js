@@ -16,7 +16,7 @@ class VueCreator extends Creator {
       message: '请选择要创建的项目类型:',
       choices: Object.keys(projectType)
     });
-    console.log(projectType[result.answer]);
+    // console.log(projectType[result.answer]);
     this.copy(projectPath, `${this.root}/temp/${projectType[result.answer]}`);
   }
 }
