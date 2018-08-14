@@ -1,6 +1,6 @@
 const express = require('express');
 const RPC = require('../../lib/localrpc.js');
-const Route = require('../../lib/route.js');
+const Route = require('../../lib/route/route.js');
 const conf = require('../../config/config.js');
 
 module.exports = () => {
